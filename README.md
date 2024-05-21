@@ -7,6 +7,10 @@ The project is developed for the **Llama 3 on Akash Network** zealy task which i
 
 
 
+https://github.com/cro7nis/llama3-on-akash/assets/166608635/df313e86-3868-4483-b832-ac8c48d3787c
+
+
+
 
 - First you need to create a huggingface account and get access to the model from [here](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)
   - You need to agree to share your contact information to access the model
