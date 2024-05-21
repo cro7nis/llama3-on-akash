@@ -9,6 +9,7 @@ The project is developed for the **Llama 3 on Akash Network** zealy task which i
 
 
 - First you need to create a huggingface account and get access to the model from [here](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)
+  - You need to agree to share your contact information to access the model
 - Create an [access token](https://huggingface.co/settings/tokens) and use it to replace **hf_yourtoken** in [deploy.yaml](deploy.yaml)
 - Create and fund a Keplr or Leap wallet
   - [Keplr wallet](https://akash.network/docs/getting-started/token-and-wallets/#keplr-wallet)
