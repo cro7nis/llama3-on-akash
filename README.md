@@ -31,12 +31,18 @@ https://github.com/cro7nis/llama3-on-akash/assets/166608635/df313e86-3868-4483-b
 - Accept provider transaction
 - Go to LEASES and press the URI
 - Check the [Akash docs](https://akash.network/docs/deployments/cloudmos-deploy/) if you have and questions
-- Type nvidia-smi in the console to verify GPU usage
+- You have to wait for llama3 weights to be downloaded. This might take 5-10 minutes!
 - Llama 3 is deployed!
 
-## Test Llama3
+## Test Llama3 deployment
 
 
+
+https://github.com/cro7nis/llama3-on-akash/assets/166608635/c53ebe1b-6123-421c-8173-03e5fad857b1
+
+
+
+- Open a terminal and copy the following code.
 ```
 curl http://<host>/v1/chat/completions \
 -H "Content-Type: application/json" \
@@ -48,5 +54,8 @@ curl http://<host>/v1/chat/completions \
 ]
 }'
 ```
+
+- Go to leases and change the `<host>` with the provided URI
+- Chat with Llama 3!
 
 
