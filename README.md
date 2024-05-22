@@ -41,7 +41,7 @@ https://github.com/cro7nis/llama3-on-akash/assets/166608635/df313e86-3868-4483-b
 curl http://<host>/v1/chat/completions \
 -H "Content-Type: application/json" \
 -d '{
-"model": "facebook/opt-125m",
+"model": "meta-llama/Meta-Llama-3-70B-Instruct",
 "messages": [
 {"role": "system", "content": "You are a helpful assistant."},
 {"role": "user", "content": "What is Akash network?"}
