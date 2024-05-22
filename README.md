@@ -33,3 +33,17 @@ https://github.com/cro7nis/llama3-on-akash/assets/166608635/df313e86-3868-4483-b
 - Check the [Akash docs](https://akash.network/docs/deployments/cloudmos-deploy/) if you have and questions
 - Type nvidia-smi in the console to verify GPU usage
 - Llama 3 is deployed!
+
+## Test Llama3
+
+`curl http://localhost:8000/v1/chat/completions \
+-H "Content-Type: application/json" \
+-d '{
+"model": "facebook/opt-125m",
+"messages": [
+{"role": "system", "content": "You are a helpful assistant."},
+{"role": "user", "content": "Who won the world series in 2020?"}
+]
+}'`
+
+
