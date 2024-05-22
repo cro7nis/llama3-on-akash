@@ -36,14 +36,17 @@ https://github.com/cro7nis/llama3-on-akash/assets/166608635/df313e86-3868-4483-b
 
 ## Test Llama3
 
-`curl http://localhost:8000/v1/chat/completions \
+
+```
+curl http://<host>/v1/chat/completions \
 -H "Content-Type: application/json" \
 -d '{
 "model": "facebook/opt-125m",
 "messages": [
 {"role": "system", "content": "You are a helpful assistant."},
-{"role": "user", "content": "Who won the world series in 2020?"}
+{"role": "user", "content": "What is Akash network?"}
 ]
-}'`
+}'
+```
 
 
