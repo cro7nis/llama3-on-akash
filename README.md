@@ -34,7 +34,7 @@ https://github.com/cro7nis/llama3-on-akash/assets/166608635/df313e86-3868-4483-b
 - You have to wait for llama3 weights to be downloaded. This might take 5-10 minutes!
 - Llama 3 is deployed!
 
-## Test Llama3 deployment
+## Test deployment
 
 
 
