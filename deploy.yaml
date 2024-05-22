@@ -5,7 +5,7 @@ services:
     image: zjuuu/vllm:7be4f56
     expose:
       - port: 8000
-        as: 8000
+        as: 80
         to:
           - global: true
     command:
